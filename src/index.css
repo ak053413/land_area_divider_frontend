@@ -1,13 +1,57 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+#div1, .myform {
+  position:absolute;
+  top: 20px;
+  left: 40px;
+  
+  }
+  .btnstyle{
+  background-color: white; 
+  border: solid 1px gray; 
+  padding: 2px 2px 3px;
+  border-radius: 2px;
+  margin-right: 5px;
+  }
+  .astyle{
+  color: black;
+  text-decoration-line: none;
+  border: solid 1px gray;
+  border-radius: 2px 2px 2px 2px; 
+  padding: 0px 3px 2px 3px;
+  }
+  a:hover{
+  background-color: lightgray;
+  }
+  button:hover{
+  background-color: lightgray;
+  }
+  .pstyle{
+  text-align: center;
+  }
+  .fstyle{
+      position: relative;
+      background-color: greenyellow;
+      margin-left: 5px;
+      padding-top: 1px;
+      padding-bottom: 1px;
+      padding-left: 20px;
+  }
+
+  .outer-div{
+     background-repeat: no-repeat; 
+     padding-bottom: 10px;
+  }
+
+  .inner-div1{
+    padding-left: 50px;
+    padding-top: 20px;
+  }
+
+  .inner-div2{
+    display: inline-block;
+  }
+  
+  .padq{
+    width: 195px;
+  }
+    
